@@ -11,9 +11,17 @@ public class Bid implements Offer{
         this.bid = bid;
     }
 
+    private String getSize() {
+        return this.size;
+    }
+
+    private int getBid() {
+        return this.bid;
+    }
+
     @Override
     public String toString() {
-        return "size: "+this.size+", bid: "+this.bid;
+        return "\t\t "+getSize()+"     "+getBid()+"\n";
     }
 
     @Override
