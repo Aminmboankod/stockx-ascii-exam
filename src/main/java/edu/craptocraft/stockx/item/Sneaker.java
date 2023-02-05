@@ -10,9 +10,17 @@ public class Sneaker implements Item {
         this.name = name;
     }
 
+    private String getStyle() {
+        return this.style;
+    }
+
+    private String getName() {
+        return this.name;
+    }
+
     @Override
     public String toString(){
-        return "Style: "+ this.style +", name: "+ this.name;
+        return "\tStyle: "+ getStyle() +"\n \tname: "+ getName();
     }
 
     @Override
