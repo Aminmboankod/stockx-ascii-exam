@@ -1,13 +1,15 @@
-package edu.craptocraft.stockx;
+package edu.craptocraft.stockx.item;
 
 import static org.junit.Assert.assertTrue;
 
 import org.junit.Test;
 
-public class StockxTest {
+public class ItemTest {
+    
     @Test
-    public void shouldAnswerWithTrue()
-    {
+    public void shouldAnswerWithTrue(){
         assertTrue( true );
     }
+
+    
 }
