@@ -9,6 +9,7 @@ import org.junit.Test;
 
 import edu.craptocraft.stockx.item.Bid;
 import edu.craptocraft.stockx.item.Item;
+import edu.craptocraft.stockx.item.Offer;
 import edu.craptocraft.stockx.item.Sneaker;
 
 public class MaxBidTest {
@@ -22,7 +23,7 @@ public class MaxBidTest {
         sneaker.add(new Bid("6", 200));
         MaxBid max = new MaxBid();
 
-        List<Bid> expected = new ArrayList<>();
+        List<Offer> expected = new ArrayList<>();
         expected.add(bid);
         
         assertEquals(expected, max.checkCriteria(sneaker));
