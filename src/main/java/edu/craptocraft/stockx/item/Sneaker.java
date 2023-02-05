@@ -38,4 +38,10 @@ public class Sneaker implements Item {
         return "0";
     }
 
+    @Override
+    public void add(Bid bid) {
+        // TODO Auto-generated method stub
+        
+    }
+
 }

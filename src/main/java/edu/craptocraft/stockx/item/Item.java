@@ -8,4 +8,6 @@ public interface Item {
 
     String getSale();
 
+    void add(Bid bid);
+
 }
