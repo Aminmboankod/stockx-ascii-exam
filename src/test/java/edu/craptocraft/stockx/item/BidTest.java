@@ -1,6 +1,7 @@
 package edu.craptocraft.stockx.item;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
@@ -22,7 +23,7 @@ public class BidTest {
         sneaker.add(new Bid("9.5", 479));
         sneaker.add(new Bid("13", 338));
         sneaker.add(new Bid("9.5", 480));
-    
+        assertNotNull(bid);    
     }
 
 }

@@ -1,5 +1,7 @@
 package edu.craptocraft.stockx.criteria;
 
+import static org.junit.Assert.assertNotNull;
+
 import org.junit.Test;
 
 import edu.craptocraft.stockx.item.Bid;
@@ -19,5 +21,6 @@ public class CriteriaTest {
         Criteria bids = new Bids();
         System.out.println("\n\t\t All BIDS");
         bids.checkCriteria(sneaker).forEach(System.out::print);
+        assertNotNull(bids.checkCriteria(sneaker));
     }
 }
