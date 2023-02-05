@@ -1,4 +1,4 @@
-package edu.craptocraft;
+package edu.craptocraft.stockx;
 
 import static org.junit.Assert.assertTrue;
 
@@ -7,11 +7,7 @@ import org.junit.Test;
 /**
  * Unit test for simple App.
  */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
+public class StockxTest {
     @Test
     public void shouldAnswerWithTrue()
     {
