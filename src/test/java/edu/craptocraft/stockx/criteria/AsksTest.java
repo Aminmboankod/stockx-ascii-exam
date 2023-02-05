@@ -4,7 +4,7 @@ import static org.junit.Assert.assertNotNull;
 
 import org.junit.Test;
 
-import edu.craptocraft.stockx.Ask;
+import edu.craptocraft.stockx.item.Ask;
 import edu.craptocraft.stockx.item.Item;
 import edu.craptocraft.stockx.item.Sneaker;
 

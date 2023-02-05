@@ -1,20 +1,20 @@
 package edu.craptocraft.stockx.item;
 
-
-public class Bid implements Offer{
+public class Ask implements Offer{
 
     private String size;
     private int value;
 
-    public Bid(String size, int bid) {
+    public Ask(String size, int ask) {
         this.size = size;
-        this.value = bid;
+        this.value = ask;
     }
+    
 
     @Override
     public String toString() {
-        return "\t "+size()+"\t\t\t"+value()+"\n";
-    }
+    return "\t "+size()+"\t\t\t"+value()+"\n";
+}
 
     @Override
     public String size() {
@@ -31,5 +31,5 @@ public class Bid implements Offer{
         // TODO Auto-generated method stub
         return 0;
     }
-
+    
 }

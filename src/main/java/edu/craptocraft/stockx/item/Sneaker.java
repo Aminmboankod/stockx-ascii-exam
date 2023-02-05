@@ -8,6 +8,10 @@ public class Sneaker implements Item {
     private String style;
     private String name;
     public List<Offer> offers;
+    public int ask;
+    public int bid;
+    public int sale;
+
     public Sneaker(String style, String name) {
         this.style = style;
         this.name = name;
@@ -28,18 +32,18 @@ public class Sneaker implements Item {
     }
 
     @Override
-    public String getAsk() {
-        return "0";
+    public int getAsk() {
+        return this.ask;
     }
 
     @Override
-    public String getBid() {
-        return "0";
+    public int getBid() {
+        return this.bid;
     }
 
     @Override
-    public String getSale() {
-        return "0";
+    public int getSale() {
+        return this.sale;
     }
 
     @Override
@@ -55,19 +59,19 @@ public class Sneaker implements Item {
 
     @Override
     public void setBid(int bid) {
-        // TODO Auto-generated method stub
+        this.bid = bid;
         
     }
 
     @Override
     public void setAsk(int ask) {
-        // TODO Auto-generated method stub
+        this.ask = ask;
         
     }
 
     @Override
     public void setSale(int sale) {
-        // TODO Auto-generated method stub
+        this.sale = sale;
         
     }
 

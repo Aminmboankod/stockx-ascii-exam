@@ -4,11 +4,11 @@ import java.util.List;
 
 public interface Item {
 
-    String getAsk();
+    int getAsk();
 
-    String getBid();
+    int getBid();
 
-    String getSale();
+    int getSale();
 
     void add(Offer bid);
 
