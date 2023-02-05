@@ -1,28 +1,29 @@
-package edu.craptocraft.stockx.item;
+package edu.craptocraft.stockx;
 
+import edu.craptocraft.stockx.item.Offer;
 
-public class Bid implements Offer{
+public class Ask implements Offer{
 
     private String size;
-    private int bid;
+    private int ask;
 
-    public Bid(String size, int bid) {
+    public Ask(String size, int ask) {
         this.size = size;
-        this.bid = bid;
+        this.ask = ask;
     }
-
+    
     private String getSize() {
         return this.size;
     }
 
-    private int getBid() {
-        return this.bid;
+    private int getAsk() {
+        return this.ask;
     }
 
     @Override
     public String toString() {
-        return "\t "+getSize()+"\t\t\t"+getBid()+"\n";
-    }
+    return "\t "+getSize()+"\t\t\t"+getAsk()+"\n";
+}
 
     @Override
     public String size() {
@@ -41,5 +42,5 @@ public class Bid implements Offer{
         // TODO Auto-generated method stub
         return 0;
     }
-
+    
 }

@@ -43,8 +43,8 @@ public class Sneaker implements Item {
     }
 
     @Override
-    public void add(Offer bid) {
-        this.offers().add(bid);
+    public void add(Offer offer) {
+        this.offers().add(offer);
         
     }
 
