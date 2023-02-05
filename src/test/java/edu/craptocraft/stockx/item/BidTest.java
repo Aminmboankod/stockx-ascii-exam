@@ -10,7 +10,7 @@ public class BidTest {
         Item sneaker = new Sneaker("555088-105", "Jordan 1 Retro High Dark Mocha");
         Bid bid = new Bid("6", 200);
         sneaker.add(bid);
-        assertEquals("\t 6\t\t200\n", bid.toString());
+        assertEquals("\t 6\t\t\t200\n", bid.toString());
     }
 
     @Test
